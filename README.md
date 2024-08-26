@@ -1,6 +1,10 @@
-**NOTE:**
+**NOTES:**
 
 Much is hardcoded, if you want to use this you will likely have to change the code a bit, this is why no exe is included
+
+This is a simple python script, just get a code editor, paste the code, edit it if you want and run it (It works as an exe too, however was only tested with pyinstaller)
+
+To export: python -m PyInstaller --onefile --noconsole overlay.py
 
 -------------
 
