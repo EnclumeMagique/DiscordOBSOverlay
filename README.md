@@ -1,29 +1,43 @@
-# DiscordOBSOverlay
+**NOTE:**
 
-NOTES:
 Much is hardcoded, if you want to use this you will likely have to change the code a bit, this is why no exe is included
 
-REQUIREMENTS:
+-------------
+
+**REQUIREMENTS:**
+
 pywinauto
+
 obs-websocket-py
+
 Flask
+
 waitress
+
 comtypes
-tkinter  # Note: tkinter is usually included with Python installations
+
+tkinter
 
 You can use pip to install all of those
 
-Setup:
+------------------------
+**Setup:**
+
 Muted icon on OBS (Default name: Discord Mute)
+
 Deafened icon on OBS (Default name: Discord Deafen)
+
 Discord logo or any indication to the user that it is referring to the Discord mic on OBS (Default name: Discord audio info)
+
 Error when not connected to the overlay on OBS (Default name: Discord audio info error)
+
 Talking icon on OBS when inverse mode is on (Default name: Discord inverse unmute)
 
 ------------------------
 
-IF YOU HAVE A STREAMDECK OR ANY PROGRAMABLE BUTTON SYSTEM:
-There are powershell scripts you can run to toggle certain actions out of the EXE
+**IF YOU HAVE A STREAMDECK OR ANY PROGRAMABLE BUTTON SYSTEM:**
+
+**These are powershell scripts you can run to toggle certain actions out of the EXE**
 
 # ToggleOverlay.ps1
 $command = @{
