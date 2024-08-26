@@ -9,6 +9,7 @@ To export: python -m PyInstaller --onefile --noconsole overlay.py
 No Discord bot needed, just the discord app on windows (may work on other platforms but i dont think so)
 
 In OBS websocket server settings, make sure "Enable WebSocket Server" is ticked, the script will not work otherwise
+
 -------------
 
 **REQUIREMENTS:**
