@@ -35,6 +35,8 @@ Error when not connected to the overlay on OBS (Default name: Discord audio info
 
 Talking icon on OBS when inverse mode is on (Default name: Discord inverse unmute)
 
+**These can be text, images, media or website, it just needs to be a source in a singular OBS scene**
+
 ------------------------
 
 **IF YOU HAVE A STREAMDECK OR ANY PROGRAMABLE BUTTON SYSTEM:**
