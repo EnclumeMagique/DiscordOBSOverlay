@@ -10,6 +10,8 @@ No Discord bot needed, just the discord app on windows (may work on other platfo
 
 In OBS websocket server settings, make sure "Enable WebSocket Server" is ticked, the script will not work otherwise
 
+Script was only tested in Windows 11
+
 You can have Discord however you want but you cannot minimize it, the code will not work if it is.
 
 -------------
