@@ -10,23 +10,15 @@ No Discord bot needed, just the discord app on windows (may work on other platfo
 
 In OBS websocket server settings, make sure "Enable WebSocket Server" is ticked, the script will not work otherwise
 
+You can have Discord however you want but you cannot minimize it, the code will not work if it is.
+
 -------------
 
 **REQUIREMENTS:**
 
-pywinauto
+pip install -r requirements.txt
 
-obs-websocket-py
-
-Flask
-
-waitress
-
-comtypes
-
-tkinter
-
-You can use pip to install all of those
+https://github.com/obsproject/obs-websocket
 
 ------------------------
 **Setup:**
