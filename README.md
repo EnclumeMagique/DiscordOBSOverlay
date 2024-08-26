@@ -22,7 +22,7 @@ Talking icon on OBS when inverse mode is on (Default name: Discord inverse unmut
 
 IF YOU HAVE A STREAMDECK OR ANY PROGRAMABLE BUTTON SYSTEM:
 There are powershell scripts you can run to toggle certain actions out of the EXE
----------------------------------------------------------------------------------------------------------------------------------
+------------
 Overlay On/Off:
 # ToggleOverlay.ps1
 $command = @{
@@ -30,7 +30,7 @@ $command = @{
 }
 $commandJson = $command | ConvertTo-Json
 Invoke-WebRequest -Uri "http://localhost:5001/toggle_overlay" -Method POST -Body $commandJson -ContentType "application/json"
----------------------------------------------------------------------------------------------------------------------------------
+------------
 Reverse mode On/Off:
 # ToggleInverseMode.ps1
 $command = @{
@@ -38,7 +38,7 @@ $command = @{
 }
 $commandJson = $command | ConvertTo-Json
 Invoke-WebRequest -Uri "http://localhost:5001/toggle_inverse" -Method POST -Body $commandJson -ContentType "application/json"
----------------------------------------------------------------------------------------------------------------------------------
+------------
 Reverse force off:
 # ForceReverseOff.ps1
 $command = @{
@@ -46,7 +46,7 @@ $command = @{
 }
 $commandJson = $command | ConvertTo-Json
 Invoke-WebRequest -Uri "http://localhost:5001/force_reverse_off" -Method POST -Body $commandJson -ContentType "application/json"
----------------------------------------------------------------------------------------------------------------------------------
+------------
 Reverse force On:
 # ForceReverseMode.ps1
 $command = @{
