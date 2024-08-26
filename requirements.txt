@@ -1,0 +1,6 @@
+pywinauto
+obs-websocket-py
+Flask
+waitress
+comtypes
+tkinter
