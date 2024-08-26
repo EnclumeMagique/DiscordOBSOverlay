@@ -45,6 +45,8 @@ Talking icon on OBS when inverse mode is on (Default name: Discord inverse unmut
 
 **These are powershell scripts you can run to toggle certain actions out of the EXE**
 
+You will need this plugin if you use the streamdeck: https://marketplace.elgato.com/product/windows-scriptdeck-857f01dd-8fd4-44d5-8ec7-67ac850b21d3
+
 # ToggleOverlay.ps1
 $command = @{
     command = "toggle_overlay"
