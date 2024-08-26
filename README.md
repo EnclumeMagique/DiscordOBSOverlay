@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 https://github.com/obsproject/obs-websocket
 
+The GUI does not provide the overlay, it just tells it what to do, you need to setup the assets below
+
 ------------------------
 **Setup:**
 
